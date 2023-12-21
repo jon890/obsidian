@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "3187d2386ca8447d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4dc73046e479b50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7af18fa47fb349c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hello Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf74759894cd1aa5",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6dc427b7eff01af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41b0c55b994c3e4e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "97b5bd5e18e50f25",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "728a7e4b07241d12",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c0fb9212333c9c20",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4a6eb117a0779a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c25254324588e988",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hello Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6df7448eb819155f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hello Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d8b688e6bd8add6a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "39cd1946e59dd93c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hello Obsidian.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "7af18fa47fb349c3",
+  "lastOpenFiles": [
+    "Hello Obsidian.md",
+    "무제 파일.canvas",
+    "2023-12-21.md",
+    "Today I Learned.md",
+    "어드민 프론트.md",
+    "10.20 ~ 10.23 도쿄 여행.md",
+    "1일차.md",
+    "도메인 변경 이슈.md",
+    "htmach 개발 사항.md"
+  ]
+}
