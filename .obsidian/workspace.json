@@ -54,6 +54,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "adc86fe4ddac1462",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -85,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,11 +110,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
   "right": {
     "id": "c0fb9212333c9c20",
