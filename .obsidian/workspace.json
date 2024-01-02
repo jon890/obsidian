@@ -110,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-01-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-01-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "2024-01-02.md"
               }
             }
           }
@@ -169,10 +171,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "41b0c55b994c3e4e",
+  "active": "b1439b003913bd58",
   "lastOpenFiles": [
-    "2024-01-02.md",
     "conflict-files-obsidian-git.md",
+    "2024-01-02.md",
     "2023-12-21.md",
     "목표.md",
     "2024년 1분기.md",
