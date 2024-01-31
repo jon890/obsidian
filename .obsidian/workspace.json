@@ -145,14 +145,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-01-31.md",
+                "file": "2024년 메모.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b651212429388dfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-02-01.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-01-31.md",
+                "file": "2024-02-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-01-31.md",
+                "file": "2024-02-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-01-31.md"
+                "file": "2024-02-01.md"
               }
             }
           }
@@ -279,11 +291,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "47d206f6f3a05a3c",
+  "active": "b651212429388dfe",
   "lastOpenFiles": [
     "2024년 메모.md",
-    "2024-01-31.md",
+    "2024-02-01.md",
     "2024년 1분기.md",
+    "2024-01-31.md",
     "2024-01-30.md",
     "2024-01-29.md",
     "2024-01-22.md",
