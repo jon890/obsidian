@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-02-20.md",
+                "file": "2024년 메모.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "338bc2b0c926e41f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024년 1분기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-02-20.md",
+                "file": "2024년 1분기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-02-20.md",
+                "file": "2024년 1분기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-02-20.md"
+                "file": "2024년 1분기.md"
               }
             }
           }
@@ -195,11 +207,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fba8de9add8bfaa1",
+  "active": "338bc2b0c926e41f",
   "lastOpenFiles": [
     "2024년 메모.md",
-    "2024-02-20.md",
+    "2024-02-26.md",
     "2024년 1분기.md",
+    "2024-02-20.md",
     "2024-02-16.md",
     "2024-02-14.md",
     "2024-02-06.md",
@@ -222,7 +235,6 @@
     "목표.md",
     "Hello Obsidian.md",
     "Today I Learned.md",
-    "Htmach.md",
     "무제 파일.canvas"
   ]
 }
