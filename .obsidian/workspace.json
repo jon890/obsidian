@@ -61,14 +61,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-03-07.md",
+                "file": "2024년 메모.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "1bb0845ab7cbae91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-03-12.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6addee52915fbb01",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -134,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-03-07.md",
+                "file": "2024-03-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-03-07.md",
+                "file": "2024-03-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-03-07.md"
+                "file": "2024-03-12.md"
               }
             }
           }
@@ -195,11 +217,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d135c47f1bde96fd",
+  "active": "6addee52915fbb01",
   "lastOpenFiles": [
     "2024년 메모.md",
-    "2024-03-07.md",
+    "2024-03-12.md",
     "2024년 1분기.md",
+    "2024-03-07.md",
     "2024-03-04.md",
     "2024-02-29.md",
     "2024-01-04.md",
@@ -222,7 +245,6 @@
     "2024-01-18.md",
     "2024-01-17.md",
     "2024-01-12.md",
-    "2024-01-08.md",
     "무제 파일.canvas"
   ]
 }
