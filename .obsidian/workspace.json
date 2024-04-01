@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도쿄 여행.md",
+                "file": "도쿄여행.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "도쿄 여행.md",
+                "file": "도쿄여행.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "도쿄 여행.md",
+                "file": "도쿄여행.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "도쿄 여행.md"
+                "file": "도쿄여행.md"
               }
             }
           }
@@ -159,17 +159,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bf3b07e9efcda135",
+  "active": "41b0c55b994c3e4e",
   "lastOpenFiles": [
+    "2024-01-04.md",
+    "도쿄여행.md",
     "2024년 메모.md",
-    "도쿄 여행.md",
     "2024년 1분기.md",
     "2024-03-12.md",
     "2024-03-07.md",
     "캐럿 마켓.md",
     "목표.md",
     "2024-01-03.md",
-    "2024-01-04.md",
     "2024-03-04.md",
     "2024-02-29.md",
     "2024-02-28.md",
