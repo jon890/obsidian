@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024년 메모.md",
+                "file": "도쿄여행.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024년 메모.md",
+                "file": "도쿄여행.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024년 메모.md",
+                "file": "도쿄여행.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024년 메모.md"
+                "file": "도쿄여행.md"
               }
             }
           }
@@ -160,11 +160,11 @@
   },
   "active": "5e0a056438a781d6",
   "lastOpenFiles": [
+    "2024년 메모.md",
     "2024-04.md",
     "무제 파일.md",
     "2024년 1분기.md",
     "2024년 2분기.md",
-    "2024년 메모.md",
     "도쿄여행.md",
     "2024-03-12.md",
     "목표.md",
