@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a7f06dda82f41758",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e4969d0bf6bb24bc",
+  "active": "a7f06dda82f41758",
   "lastOpenFiles": [
     "2024년 메모.md",
     "2024년 2분기.md",
