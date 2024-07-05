@@ -47,9 +47,11 @@
             "id": "671e48be823167b9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "2024-07월-1주.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
