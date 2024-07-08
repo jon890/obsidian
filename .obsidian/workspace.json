@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07월-1주.md",
+                "file": "2024년 메모.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2844c91118cd8e98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07월-2주.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07월-1주.md",
+                "file": "2024-07월-2주.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07월-1주.md",
+                "file": "2024-07월-2주.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07월-1주.md"
+                "file": "2024-07월-2주.md"
               }
             }
           }
@@ -183,9 +195,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "671e48be823167b9",
+  "active": "2844c91118cd8e98",
   "lastOpenFiles": [
     "2024년 메모.md",
+    "2024-07월-2주.md",
     "2024-07월-1주.md",
     "2024년 3분기.md",
     "2024-6월-4주.md",
@@ -211,7 +224,6 @@
     "2024-03-07.md",
     "2024-03-12.md",
     "2024-01-08.md",
-    "2024-01-12.md",
     "무제 파일.canvas"
   ]
 }
