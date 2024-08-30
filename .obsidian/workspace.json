@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0682ec48b62e3f18",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fe491037323a38cc",
+  "active": "0682ec48b62e3f18",
   "lastOpenFiles": [
     "2024년 메모.md",
     "2024-8월-5주.md",
