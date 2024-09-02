@@ -25,19 +25,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-8월-5주.md",
+                "file": "2024년 메모.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0682ec48b62e3f18",
+            "id": "81c5079235158964",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "2024-9월-1주.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-8월-5주.md",
+                "file": "2024-9월-1주.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-8월-5주.md",
+                "file": "2024-9월-1주.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-8월-5주.md"
+                "file": "2024-9월-1주.md"
               }
             }
           }
@@ -169,11 +171,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0682ec48b62e3f18",
+  "active": "81c5079235158964",
   "lastOpenFiles": [
     "2024년 메모.md",
-    "2024-8월-5주.md",
+    "2024-9월-1주.md",
+    "2024년 2분기.md",
     "2024년 1분기.md",
+    "2024-8월-5주.md",
     "2024-8월-4주.md",
     "2024-02-28.md",
     "2024-8월-3주.md",
@@ -189,7 +193,6 @@
     "2024-07월-2주.md",
     "2024-6월-4주.md",
     "2024-6월-3주.md",
-    "2024년 2분기.md",
     "스크린샷 2024-06-19 오후 2.42.57.png",
     "2024-01-22.md",
     "2024-06-10.md",
@@ -198,7 +201,6 @@
     "캐럿 마켓.md",
     "Today I Learned.md",
     "Htmach.md",
-    "Hello Obsidian.md",
     "무제 파일.canvas"
   ]
 }
