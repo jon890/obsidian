@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c45d7ef7f6693e43",
+        "id": "59831855d703db31",
         "type": "tabs",
         "children": [
           {
-            "id": "5b5595dffc2b1f9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe491037323a38cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81c5079235158964",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "489e2935eb80ad1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d15c29dc6212bf1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a57a2bfe6233bf5",
+            "id": "be0277f23d9bfdf8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,37 +146,37 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9a57a2bfe6233bf5",
+  "active": "be0277f23d9bfdf8",
   "lastOpenFiles": [
     "2024년 메모.md",
+    "2024-02-06.md",
+    "2024-02-05.md",
+    "2024-02-01.md",
+    "2024-01-31.md",
+    "2024-01-30.md",
+    "2024-01-29.md",
+    "2024-01-22.md",
+    "2024-01-18.md",
+    "2024-01-17.md",
+    "2024-01-12.md",
+    "2024-01-08.md",
+    "2024-01-05.md",
+    "2024-01-04.md",
+    "2024-01-03.md",
+    "2024-01-02.md",
+    "2023-12-21.md",
+    "도쿄여행.md",
+    "스크린샷 2024-09-23 오후 5.15.48.png",
+    "Today I Learned.md",
     "2024-10월-2주.md",
     "2024-9월-4주.md",
-    "스크린샷 2024-09-23 오후 5.15.48.png",
     "2024년 1분기.md",
     "2024-9월-2주.md",
     "2024-9월-1주.md",
     "2024년 2분기.md",
     "2024-8월-5주.md",
-    "2024-8월-4주.md",
-    "2024-02-28.md",
-    "2024-8월-3주.md",
-    "2024년 3분기.md",
-    "2024-02-16.md",
-    "2024-08-2주.md",
-    "2024-07월-1주.md",
-    "도쿄여행.md",
-    "2024-08-1주.md",
-    "2024-07월-4주.md",
     "스크린샷 2024-07-22 오후 7.23.18.png",
-    "2024-07월-3주.md",
-    "2024-07월-2주.md",
-    "2024-6월-4주.md",
-    "2024-6월-3주.md",
     "스크린샷 2024-06-19 오후 2.42.57.png",
-    "2024-01-22.md",
-    "2024-06-10.md",
-    "2024-06-03.md",
-    "2024-05-28.md",
     "무제 파일.canvas"
   ]
 }
