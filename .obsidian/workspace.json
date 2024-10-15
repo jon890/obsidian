@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apache Kafka.md",
+                "file": "2024-10월-3주.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apache Kafka.md",
+                "file": "2024-10월-3주.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apache Kafka.md",
+                "file": "2024-10월-3주.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apache Kafka.md"
+                "file": "2024-10월-3주.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "771628eb433fa31e",
   "lastOpenFiles": [
-    "2024-10월-3주.md",
     "Apache Kafka.md",
+    "2024-10월-3주.md",
     "2024년 메모.md",
     "2024년 1분기.md",
     "2024-10월-2주.md",
