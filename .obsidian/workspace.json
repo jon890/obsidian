@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "721f07aff2eaa316",
+        "id": "eadb56562e863188",
         "type": "tabs",
         "children": [
           {
-            "id": "4860a43929e08dbe",
+            "id": "4a11cebefc51cc5b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "2024-11월-5주.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "2024-11월-5주"
             }
           }
         ]
@@ -160,7 +162,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4860a43929e08dbe",
+  "active": "4a11cebefc51cc5b",
   "lastOpenFiles": [
     "2024년 메모.md",
     "2024-11월-5주.md",
