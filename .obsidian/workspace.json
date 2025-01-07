@@ -13,132 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024년 메모.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024년 메모"
-            }
-          },
-          {
-            "id": "c8b640e7ac6fc91b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모/2024년 메모.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024년 메모"
-            }
-          },
-          {
-            "id": "d3865234f71b48d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모/2024년 메모.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024년 메모"
-            }
-          },
-          {
-            "id": "86f07e0950678e5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모/2024년 메모.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024년 메모"
-            }
-          },
-          {
-            "id": "d6831ec617e5edbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모/2024년 메모.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024년 메모"
-            }
-          },
-          {
-            "id": "6182d122905ccdfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 메모/2024년 메모.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024년 메모"
-            }
-          },
-          {
-            "id": "1db27f4ddced354e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025년 메모/README.md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README.md"
-            }
-          },
-          {
-            "id": "9873fe2f5dbceb95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025년 메모/2025-1월-1주.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-1월-1주"
-            }
-          },
-          {
-            "id": "0d59b948054291b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025년 메모/README.md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README.md"
-            }
-          },
-          {
-            "id": "4eeae3ea82a69fc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "2025-1월-2주.md",
                 "mode": "source",
                 "source": false
@@ -147,8 +21,7 @@
               "title": "2025-1월-2주"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,11 +162,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4eeae3ea82a69fc2",
+  "active": "4a11cebefc51cc5b",
   "lastOpenFiles": [
+    "2024년 메모/2024년 메모.md",
     "2025년 메모/README.md.md",
-    "2025-1월-2주.md",
     "2025년 메모/2025-1월-1주.md",
+    "2025-1월-2주.md",
     "Hello Obsidian.md",
     "Htmach.md",
     "Today I Learned.md",
@@ -303,7 +177,6 @@
     "무제 파일.md",
     "2024년 메모",
     "2024년 메모/2024-8월-5주.md",
-    "2024년 메모/2024년 메모.md",
     "2024년 메모/2024-12-5주.md",
     "2024년 메모/2024-12월-4주.md",
     "2024년 메모/2024년 3분기.md",
