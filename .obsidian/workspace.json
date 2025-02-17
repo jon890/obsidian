@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b4dc73046e479b50",
+        "id": "b7a356cae6cff8ff",
         "type": "tabs",
         "children": [
           {
-            "id": "7af18fa47fb349c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-12-21.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "855360463ec0a401",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "목표.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89ccc51d28f2891a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024년 1분기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c5665820d57bf27",
+            "id": "4b673a0118e89f6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "adc86fe4ddac1462",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,12 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c5665820d57bf27",
+  "active": "4b673a0118e89f6e",
   "lastOpenFiles": [
-    "목표.md",
     "Htmach.md",
-    "2024년 1분기.md",
     "2023-12-21.md",
+    "목표.md",
+    "2024년 1분기.md",
     "Hello Obsidian.md",
     "무제 파일.canvas",
     "Today I Learned.md",
