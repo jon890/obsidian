@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b7a356cae6cff8ff",
+        "id": "7eb3dbce1a445419",
         "type": "tabs",
         "children": [
           {
-            "id": "4b673a0118e89f6e",
+            "id": "ae0c359f94042347",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Htmach.md",
+                "file": "2024년 메모/2023-12-21.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2023-12-21"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ],
@@ -86,15 +95,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Htmach.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -103,10 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Htmach.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           },
           {
@@ -116,8 +129,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,40 +143,64 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Htmach.md"
-              }
+                "file": "conflict-files-obsidian-git.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4b673a0118e89f6e",
+  "active": "ae0c359f94042347",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2024년 메모/2024-01-30.md",
+    "캐럿 마켓.md",
     "Htmach.md",
-    "2023-12-21.md",
-    "목표.md",
-    "2024년 1분기.md",
-    "Hello Obsidian.md",
-    "무제 파일.canvas",
-    "Today I Learned.md",
-    "어드민 프론트.md",
-    "10.20 ~ 10.23 도쿄 여행.md",
-    "1일차.md",
-    "도메인 변경 이슈.md",
-    "htmach 개발 사항.md"
+    "2025년 메모/2025-2월-2주.md",
+    "2025-2월-3주.md",
+    "스크린샷 2025-02-03 오후 2.48.42.png",
+    "도쿄여행.md",
+    "Apache Kafka.md",
+    "2025년 메모/README.md.md",
+    "2025년 메모/2025-2월-1주.md",
+    "2025년 메모/2025-1월-4주.md",
+    "2025년 메모/2025-1월-2주.md",
+    "2025년 메모/2025-1월-1주.md",
+    "2025년 메모/2025-1월 -3주.md",
+    "2025년 메모",
+    "2024년 메모/2024년 메모.md",
+    "2024년 메모/2024년 3분기.md",
+    "2024년 메모/2024년 2분기.md",
+    "2024년 메모/2024년 1분기.md",
+    "2024년 메모/2024-9월-4주.md",
+    "2024년 메모/2024-9월-2주.md",
+    "2024년 메모/2024-9월-1주.md",
+    "2024년 메모/2024-8월-5주.md",
+    "2024년 메모/2024-8월-4주.md",
+    "2024년 메모/2024-8월-3주.md",
+    "2024년 메모/2024-6월-4주.md",
+    "2024년 메모/2024-6월-3주.md",
+    "2024년 메모",
+    "무제 파일.canvas"
   ]
 }
