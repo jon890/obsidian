@@ -5,12 +5,14 @@
 
 ## NavBar
 - logo는 이미지로 하지 않고, gradient 색상 텍스트로
+- 마딘 메뉴 위치 결정
+- ANSYS도 포함 하는지?
 
 ## Home
-- 들어갈 영상 주면 이런식으로 제작해드림
+- 일단 ANSYS에서 영상따와서 넣어봄 괜찮긴함
+- AI로 영상제작 가능할지?
 
 ## Menu
-
 - MADYN 프로그램
 
 - 국내 단독 라이센싱
@@ -20,10 +22,6 @@
 - 업계에서 제일 많이 쓰는 프로그램
 - 프로그램 홍보
 - [https://www.ansys.com/ko-kr/company-information/simulation-is-a-superpower](https://www.ansys.com/ko-kr/company-information/simulation-is-a-superpower)
-
-- 로고 있나?
-
-  
 
 - 한화 에어로 스페이스 같은느낌
 - 마딘 홍보
