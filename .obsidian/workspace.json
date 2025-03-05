@@ -104,9 +104,21 @@
               "icon": "lucide-file",
               "title": "2025-3월-1주"
             }
+          },
+          {
+            "id": "47186ed259cf9aa5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -248,7 +260,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c45128df1cbce79e",
+  "active": "47186ed259cf9aa5",
   "lastOpenFiles": [
     "2025년 메모/2025-3월-1주.md",
     "2025년 메모/README.md",
