@@ -4,25 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0e9e5969d54a47de",
+        "id": "20a90f4bb248c6c1",
         "type": "tabs",
         "children": [
           {
-            "id": "4313a7d067c720bd",
+            "id": "4a36b016ea3f1086",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025년 메모/2025-2월-4주.md",
+                "file": "2025년 메모/README.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-2월-4주"
+              "title": "README.md"
             }
           },
           {
-            "id": "97ea144db1236e74",
+            "id": "d2fa0526796174c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025년 메모/README.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README.md"
+            }
+          },
+          {
+            "id": "981d38ff5bd82399",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,8 +48,65 @@
               "icon": "lucide-file",
               "title": "2025-2월-3주"
             }
+          },
+          {
+            "id": "be3f1e43d2342c0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025년 메모/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "b7ca9b0a270bfb56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025년 메모/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "9337581d7dbd9f5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025년 메모/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "c45128df1cbce79e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025년 메모/2025-3월-1주.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-3월-1주"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -92,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 204.5
   },
   "right": {
     "id": "c0fb9212333c9c20",
@@ -108,17 +179,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-10월-5주.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "2024-10월-5주의 백링크"
             }
           },
           {
@@ -127,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-10월-5주.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from conflict-files-obsidian-git"
+              "title": "2024-10월-5주의 나가는 링크"
             }
           },
           {
@@ -142,9 +213,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -156,67 +225,65 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "2024-10월-5주.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "2024-10월-5주 개요"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4313a7d067c720bd",
+  "active": "41b0c55b994c3e4e",
   "lastOpenFiles": [
+    "2025년 메모/이미지/스크린샷 2025-03-06 오전 11.02.13.png",
+    "2025년 메모/2025-1월 -3주.md",
     "2025년 메모/2025-3월-1주.md",
-    "개인커리어고민.md",
     "2025년 메모/README.md",
-    "2025년 메모/2025-2월-3주.md",
-    "2025년 메모/은행은 왜 무한스크롤이 안되나요?.md",
+    "개인커리어고민.md",
     "2025년 메모/2025-2월-4주.md",
     "conflict-files-obsidian-git.md",
-    "2025년 메모/이미지/스크린샷 2025-02-03 오후 2.48.42.png",
-    "2025년 메모/이미지",
-    "결혼비용 정리.md",
-    "스크린샷 2025-02-03 오후 2.48.42.png",
-    "도쿄여행.md",
-    "무제.canvas",
-    "2024년 메모/2023-12-21.md",
-    "2024년 메모/2024-01-30.md",
-    "캐럿 마켓.md",
-    "Htmach.md",
-    "2025년 메모/2025-2월-2주.md",
-    "Apache Kafka.md",
-    "2025년 메모/README.md.md",
-    "2025년 메모/2025-2월-1주.md",
-    "2025년 메모/2025-1월-4주.md",
-    "2025년 메모/2025-1월-2주.md",
     "2025년 메모/2025-1월-1주.md",
-    "2025년 메모/2025-1월 -3주.md",
-    "2025년 메모",
+    "2025년 메모/은행은 왜 무한스크롤이 안되나요?.md",
+    "결혼비용 정리.md",
+    "2025년 메모/2025-2월-3주.md",
+    "2025년 메모/2025-1월-2주.md",
+    "Htmach.md",
+    "2025년 메모/2025-2월-1주.md",
+    "2025년 메모/2025-2월-2주.md",
+    "2025년 메모/이미지",
+    "2025년 메모/이미지/스크린샷 2025-02-03 오후 2.48.42.png",
+    "무제 파일.md",
+    "도쿄여행.md",
+    "2025년 메모/2025-1월-4주.md",
     "2024년 메모/2024년 메모.md",
-    "2024년 메모/2024년 3분기.md",
-    "2024년 메모/2024년 2분기.md",
-    "2024년 메모/2024년 1분기.md",
-    "2024년 메모/2024-9월-4주.md",
+    "Hello Obsidian.md",
+    "Today I Learned.md",
+    "2025년 메모",
+    "캐럿 마켓.md",
+    "2024년 메모/2023-12-21.md",
     "2024년 메모",
+    "2024년 메모/2024-8월-5주.md",
+    "2024년 메모/2024-12-5주.md",
+    "2024년 메모/2024-12월-4주.md",
+    "스크린샷 2024-12-19 오후 12.18.12.png",
+    "스크린샷 2024-09-23 오후 5.15.48.png",
+    "스크린샷 2024-07-22 오후 7.23.18.png",
+    "스크린샷 2024-06-19 오후 2.42.57.png",
     "무제 파일.canvas"
   ]
 }
