@@ -90,9 +90,21 @@
               "icon": "lucide-file",
               "title": "2025-3월-1주"
             }
+          },
+          {
+            "id": "ed977233b1e9cfa2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -234,7 +246,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9337581d7dbd9f5c",
+  "active": "ed977233b1e9cfa2",
   "lastOpenFiles": [
     "2025년 메모/이미지/스크린샷 2025-03-06 오전 11.18.30.png",
     "2025년 메모/2025-3월-1주.md",
