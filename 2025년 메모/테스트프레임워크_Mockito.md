@@ -1,4 +1,6 @@
 
+https://github.com/mockito/mockito/wiki/Mockito-features-in-Korean
+
 - 테스트 대역 (스턴트맨, Test Double)
 	- 테스트를 위해 실제 객체를 대체하는 것
 - 모의 객체 (목 객체, Mock)
@@ -8,3 +10,5 @@
 - Verification
 	- 테스트하고자 하는 메서드가 의도한 대로 동작하는지 검증
 	- Mockito.verify(mock).action() 등으로 사용
+
+- 유닛 테스트에 잘 활용해보기
