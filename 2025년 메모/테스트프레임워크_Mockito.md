@@ -10,5 +10,6 @@ https://github.com/mockito/mockito/wiki/Mockito-features-in-Korean
 - Verification
 	- 테스트하고자 하는 메서드가 의도한 대로 동작하는지 검증
 	- Mockito.verify(mock).action() 등으로 사용
+	- 객체의 호출 여부, 호출 횟수 검증, 값 자체는 검증하지 않음
 
 - 유닛 테스트에 잘 활용해보기
