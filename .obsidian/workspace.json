@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025년 메모/테스트프레임워크_Mockito.md",
+                "file": "2025년 메모/2025-3월-2주.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "테스트프레임워크_Mockito"
+              "title": "2025-3월-2주"
             }
           }
         ],
@@ -192,7 +192,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "41b0c55b994c3e4e",
+  "active": "959d8c8184853ae4",
   "lastOpenFiles": [
     "2025년 메모/테스트프레임워크_Mockito.md",
     "2025년 메모/README.md",
