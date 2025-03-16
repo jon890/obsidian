@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025년 메모/2025-2월-4주.md",
+                "file": "2025년 메모/2025-3월-1주.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-2월-4주"
+              "title": "2025-3월-1주"
+            }
+          },
+          {
+            "id": "e68b400030bf02ed",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           },
           {
@@ -35,7 +47,8 @@
               "title": "2025-2월-3주"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,14 +196,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4313a7d067c720bd",
+  "active": "e68b400030bf02ed",
   "lastOpenFiles": [
+    "2025년 메모/2025-2월-4주.md",
     "2025년 메모/2025-3월-1주.md",
     "개인커리어고민.md",
     "2025년 메모/README.md",
     "2025년 메모/2025-2월-3주.md",
     "2025년 메모/은행은 왜 무한스크롤이 안되나요?.md",
-    "2025년 메모/2025-2월-4주.md",
     "conflict-files-obsidian-git.md",
     "2025년 메모/이미지/스크린샷 2025-02-03 오후 2.48.42.png",
     "2025년 메모/이미지",
