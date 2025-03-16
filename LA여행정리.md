@@ -5,3 +5,11 @@
 	- 인앤아웃 버거 (모자, 스티커)
 	- 베니스 비치
 	- 산타모니카 비치
+	- 북창동순두부
+	- Lake Hollywood Park (할리우드싸인)
+	- 그리피스 천문대
+	- 트레이더 조
+	- 브래드 버리 빌딩
+
+- https://www.youtube.com/watch?v=gS6CbH_uOJ8
+	- 아벤투라 호텔 4박 80만원
