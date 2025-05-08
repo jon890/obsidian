@@ -3,6 +3,17 @@ https://github.com/redis/redis
 
 
 - Remote DIctionary Server
+	- 싱글 스레드 기반
+		- 락 프리 구조
+		- 원자성 보장
+		- 컨텍스트 스위칭 최소화
+	- 이벤트 루프 아키텍쳐
+	- 비동기 I/O
+		- epoll (linux)
+		- kqueue (macOS)
+		- select (windows)
+	- 논 블로킷 소켓
+	- https://medium.com/better-programming/internals-workings-of-redis-718f5871be84
 
 - 주로 사용되는 use-case
 	- 캐쉬
