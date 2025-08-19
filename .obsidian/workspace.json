@@ -53,12 +53,14 @@
             "id": "7268d8c6c227069c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.10"
+                "file": "2025년 메모/2025-8월-3주.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "icon": "lucide-file",
+              "title": "2025-8월-3주"
             }
           }
         ],
