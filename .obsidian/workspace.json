@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025년 메모/2025-9월-2주.md",
+                "file": "2025년 메모/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-9월-2주"
+              "title": "README"
             }
           },
           {
-            "id": "6e8747498be8e0fb",
+            "id": "a13efd664490d45d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "2025-9월-3주.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
+              "icon": "lucide-file",
+              "title": "2025-9월-3주"
             }
           }
         ],
@@ -194,12 +196,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e8747498be8e0fb",
+  "active": "a13efd664490d45d",
   "lastOpenFiles": [
-    "2025년 메모/2025-9월-1주.md",
+    "2025-9월-3주.md",
     "2025년 메모/README.md",
-    "2025년 메모/2025-6월-2주.md",
     "2025년 메모/2025-9월-2주.md",
+    "2025년 메모/2025-9월-1주.md",
+    "2025년 메모/2025-6월-2주.md",
     "2025년 메모/LA여행정리.md",
     "2025년 메모/2025-8월-3주.md",
     "무제.md",
@@ -221,7 +224,6 @@
     "2025년 메모/2025-5월-3주.md",
     "2025년 메모/2025-5월-2주.md",
     "2025년 메모/2025-4월-5주.md",
-    "2025년 메모/2025-4월-4주.md",
     "스크린샷 2025-05-20 오후 7.23.39.png",
     "스크린샷 2025-05-16 오전 10.30.07.png",
     "자바",
