@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2025-9월-2주"
             }
+          },
+          {
+            "id": "6e8747498be8e0fb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd9233e12bed0897",
+  "active": "6e8747498be8e0fb",
   "lastOpenFiles": [
     "2025년 메모/2025-9월-1주.md",
     "2025년 메모/README.md",
