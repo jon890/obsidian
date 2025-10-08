@@ -3,7 +3,7 @@
 
 Vlad
 
-## 시작하며
+## 1. 시작하며
 
 - 많은 애플리케이션에서 Data Access Layer 성능에서 많은 지연이 발생함
 - Data Access Layer에서 필요한 응답시간은 여러가지를 포함한다
@@ -13,7 +13,7 @@ Vlad
 	4. Business Logic Idle TIme
 
 
-### 로깅
+### 1. 3 로깅
 
 - hibernate.show_sql 
 	- 위 속성은 사용하지 말자
@@ -30,4 +30,22 @@ Vlad
 	- JDBC Datasource를 Proxy하여 다양한 횡단 관심사를 처리할 수 있기 때문
 		- slow query 추적
 		- 실행 중인, statement수 확인 등..
-	- P6Spy
+	- P6Spy, Datasource-Proxy
+		- batch 처리인지, statement 처리인지 확인 가능 
+			- **batch 처리에 대해 잘 아는게 없다.. 이 부분 공부 필요!**
+			- jdbc에서의 배치 처리, hibernate에서의 배치처리 => db전송 어떻게 되는거지?
+				- hibernate.jdbc.batch_size 변경시 어떻게 동작하는가?
+
+
+- 자바의 로깅은 어떻게 동작하는걸까? 또 로깅 프레임워크는 왜 필요한걸까?
+	- log4j, logback, slf4j의 용어의 뜻은 무엇인가?
+
+
+## 1.4 스키마 관리
+
+- 스키마 마이그레이션을 수동으로 하지 말라
+	- CI, CD, DevOps에 반한다.
+	- 자동으로 동작하게 할 것 (flyway, liquibase 등)
+	- 운영환경에서도 자동으로 동작해야하는가?
+		- QA 환경에서 동작했다면, 운영환경에서도 동작해야할 것..
+		- 하지만 현재 회사에서는 자동화 하지는 않음 => 자동화 할 순 없는걸까?
