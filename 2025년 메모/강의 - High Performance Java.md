@@ -90,6 +90,9 @@ Vlad
 	- DELAYED_ACCQUISITION_AND_RELEASE_AFTER_STATEMENT
 		- 커넥션 획득을 지연
 		- 각 statement 수행 후 해제 (JTA)
+	- DELAYED_ACCQUISITION_AND_RELEASE_AFTER_TRANSACTION
+		- 커넥션 획득 지연
+		- 트랜잭션 수행 후 해제 (RESOURCE_LOCAL)
 - hibernate.connection.proider_disables_autocommit
 	- dataSource가 connection을 가져올 떄, autocommit이 비활성화 되어있다면 hibernate는 getAutoCommit으로 값을 가져올 필요가 없음
 	- 이를 위한 최적화
@@ -97,3 +100,18 @@ Vlad
 
 - 궁금한 점
 	- ResourceLocal, JTA는 무엇이 다른거지?
+
+### 2.3 커넥션 모니터링
+
+- 커넥션 풀 사이즈 관리법
+	- Little's Law, Erlang B, Erlang C 등
+	- 공식으로만은 적절하지 않음, 다른 외부 변수가 많기 떄문에
+		- 네트워크 지연, jvm, gc 등..
+	- 이를 위해 모니터링 및 failover 구성이 필요하다.
+	- flexy-pool
+		- 풀 연결시간을 알 수 있는 오픈소스 라이브러리
+		- 커넥션 수를 유동적으로 사용할 수도 있게 해줌
+		- 다른 모니터링 도구로 데이터를 전달할 수 있음
+		- FlexyPoolTest
+			- 이 테스트를 통해 쉽게 설정할 수 있음을 보여 줌
+			- 
