@@ -85,3 +85,15 @@ Vlad
 		- 커넥션풀 모니터링?
 
 ### 2.2 하이버네이트 커넥션 라이프사이클
+
+- hibernate.cinnection.handling_mode
+	- DELAYED_ACCQUISITION_AND_RELEASE_AFTER_STATEMENT
+		- 커넥션 획득을 지연
+		- 각 statement 수행 후 해제 (JTA)
+- hibernate.connection.proider_disables_autocommit
+	- dataSource가 connection을 가져올 떄, autocommit이 비활성화 되어있다면 hibernate는 getAutoCommit으로 값을 가져올 필요가 없음
+	- 이를 위한 최적화
+	- ResourceLocalDelayConnectionAcquisitionTest 로 확인해보기
+
+- 궁금한 점
+	- ResourceLocal, JTA는 무엇이 다른거지?
