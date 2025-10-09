@@ -226,3 +226,10 @@ Vlad
 			- `@LazyToOne(LazyToOneOption.NO_PROXY)`
 				- 하이버네이트에서는 MapsId와 같이 동작하지 않음
 				- 따라서 MapsId를 사용하는 것이 더 선호됨
+
+
+## 6. 상속
+
+### 6.1 JPA 상속의 기본 개념
+
+- 
