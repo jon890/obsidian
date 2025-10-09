@@ -154,3 +154,26 @@ Vlad
 
 ## 4. 식별자
 
+- Identity
+	- mysql AUTO_INCREMENT 전략등으로 증가하는 DB 내부 카운터 값
+	- 경량화된 잠금 매커니즘을 사용하여 빠름
+	- 락을 짧게 가져가기 떄문에, 트랜잭션 롤백 시, 중간 값이 비는 경우가 존재할 수 있음 (버그 아님)
+	- 실제 insert statement가 수행되어야 id값을 알 수 있기 떄문에, jdbc 배치로는 처리가 불가능
+		- persist -> insert statement -> 트랜잭션 기반 쓰기지연 캐싱 시맨틱이 꺠짐으로 불가능
+- sequence
+	- database sequence
+	- hibernate_sequence를 통해 값을 가져오고, 값을 사용
+	- 경량화된 잠금 매커니즘을 사용
+	- 카운터값만 증가되고 락이 풀리는 구조
+- table
+	- JPA에서 지원해주는 기능
+	- sequence를 관리히는 테이블, 행 수준의 잠금으로 관리
+	- 별도의 트랜잭션을 통해 시퀀스 값을 가져와야함으로 오버헤드 발생
+- auto
+
+- 이식성을 위해 xml을 사용하여 별도로 전략을 지정해줄 수 도 있음
+	- xml > annotation
+	- 애노테이션 설정을 덮어쓸 수 있음
+
+- PostgreSQLIdentifierTest
+- MySQLIdentifierTest
