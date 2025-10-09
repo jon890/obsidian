@@ -211,6 +211,18 @@ Vlad
 		- 자연 식별자 - isbn 등..
 			- NaturalIdEqualityTest
 
-### 5.3 ManyToOne and OneToMany
+### 5.4 OneToOne
 
-- 
+- Post - PostDetails
+	- 단방향
+		- JoinColumn을 통해 명시
+			- 기본키와 외래키가 분리
+		- 기본키와 외래키를 합치도록하려면 MapsId를 사용하는 것이 좋음
+	- 양방향
+		- OneToOne 애노테이션 속성에 mappedBy를 추가
+		- 부모에 보통 자식을 설정할 수 있는 유틸 메소드를 추가하는 것이 관행
+		- N+1 문제가 발생할 수 있음
+			- 바이트코드 향상을 통해 발생하지 않도록 할 수 있음
+			- `@LazyToOne(LazyToOneOption.NO_PROXY)`
+				- 하이버네이트에서는 MapsId와 같이 동작하지 않음
+				- 따라서 MapsId를 사용하는 것이 더 선호됨
