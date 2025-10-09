@@ -133,3 +133,4 @@ Vlad
 	- updateEntity
 	- deleteEntity...
 - hibernate.generate_statistics를 true로 하면 통계수집을 활성화 할 수 있다
+- Dropwizard Metrics를 통해 모니터링하면 좀 더 쉽게 모니터링 가능
