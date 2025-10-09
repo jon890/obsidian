@@ -177,3 +177,6 @@ Vlad
 
 - PostgreSQLIdentifierTest
 - MySQLIdentifierTest
+
+
+### 4.2 하이버네이트 식별자 최적화
