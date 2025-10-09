@@ -134,3 +134,23 @@ Vlad
 	- deleteEntity...
 - hibernate.generate_statistics를 true로 하면 통계수집을 활성화 할 수 있다
 - Dropwizard Metrics를 통해 모니터링하면 좀 더 쉽게 모니터링 가능
+
+
+## 3. 타입
+
+### 3.1 JPA와 하이버네이트의 타입
+
+- db에서의 타입은 최대한 compact한게 좋다
+	- db에서의 데이터 단위인 페이지에 여러 행들이 존재하는 것 이 좋기 떄문에 컴팩트하게 유지하는 것이 좋음
+	- codeEnum을 사용해서 데이터 크기를 줄이면 좋겠다.
+
+### 3.2 하이버네이트 커스텀 타입
+
+- ip와 같은 정보를 저장하기 위한 컬럼 타입으로 PostgreSQL의 inet 타입을 사용할 수 있다
+- 이 타입을 지원하기 위해, 하이버네이트 커스텀 타입을 구현해야한다.
+- IPv4TypeTest를 참조해보자
+- hypersistence 패키지?
+
+
+## 4. 식별자
+
