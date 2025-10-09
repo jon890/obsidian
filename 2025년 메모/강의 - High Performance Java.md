@@ -94,7 +94,7 @@ Vlad
 		- 커넥션 획득 지연
 		- 트랜잭션 수행 후 해제 (RESOURCE_LOCAL)
 - hibernate.connection.proider_disables_autocommit
-	- dataSource가 connection을 가져올 떄, autocommit이 비활성화 되어있다면 hibernate는 getAutoCommit으로 값을 가져올 필요가 없음
+ - dataSource가 connection을 가져올 떄, autocommit이 비활성화 되어있다면 hibernate는 getAutoCommit으로 값을 가져올 필요가 없음
 	- 이를 위한 최적화
 	- ResourceLocalDelayConnectionAcquisitionTest 로 확인해보기
 
@@ -118,4 +118,18 @@ Vlad
 
 ### 2.4 하이버네이트 통계
 
-- 
+- StatisticsImplementor
+	- openSession
+	- closeSession
+	- flush
+	- connect
+	- prepareStatement
+	- closeStatement
+	- endTransaction
+	- optimisticFailure
+	- loadEntity
+	- fetchEntity
+	- insertEntity
+	- updateEntity
+	- deleteEntity...
+- hibernate.generate_statistics를 true로 하면 통계수집을 활성화 할 수 있다
