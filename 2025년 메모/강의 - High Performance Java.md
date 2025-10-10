@@ -232,4 +232,21 @@ Vlad
 
 ### 6.1 JPA 상속의 기본 개념
 
-- 
+- 단일 테이블 상속 -> InheritanceType.SINGLE_TABLE
+- 클래스 테이블 상속 -> InheritanceType.JOINED
+- concrete 테이블 상속 -> InheritanceType.TABLE_PER_CLASS
+
+### 6.2 단일 테이블 상속
+
+- SingleTableTest
+- 호율적인 statement 생성, 성능면에서 우수하다
+- subclass 컬럼에 not null validation을 사용할 수 없다?
+	- 반드시 하위 클래스에서 설정되어야 함으로
+	- 이 무결성은 다른 애플리케이션에서 꺠질 수 있음으로 반드시 지켜져야 하도록 check, trigger를 통해 DB 레벨에서 체크되어야 함
+	- SingleTableMySQLTriggerTest
+
+### 6.3 JPA 상속구분자 컬럼
+
+- `@DiscriminatorColumn`
+	- String (default), Char, Integer 사용 가능
+	- 
