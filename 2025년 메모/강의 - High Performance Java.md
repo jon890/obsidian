@@ -393,7 +393,89 @@ Vlad
 	- ExecutionPlanTest를 확인해보면 애플리케이션에서 createNativeQuery를 활용하여 실행계획도 보는 것을 확인할 수 있다. 
 	- 각 DB 클라이언트에서 제공해주는 실행계획을 확인하면 더 이해할 수 있도록 정보를 많이 제공해줌 (visual explain)
 
+- 자바의 PreparedStatement에 대해서 더 깊게 공부해보면 재밌어 보인다. 
+	- jdbc driver 측에서도 캐쉬할 수 있다고 함 
+	- connection.prepareStatement()를 호출하여 PrepraredStatement 객체를 반환받고
+	- 위를 통해 connection.executeQuery()를 수행하는 것 같았는데
+	- 이 때, prepareStatement()도 DB를 왕복하는 동작일 듯 하다.. 
+	- MySQL
+		- cachePrepStmts (default false)
+		- prepStmtCacheSize (default 25)
+		- prepStmtCacheSqlLimit (default 256)
+	- 깊게 공부하다보면 여기까지 최적화 하게 되는거군..
 
 ## 9. Batching
 
-- 
+### 9.1 Batch Updates with JDBC and Hibernate
+
+- Statement batching
+	- statement.addBatch(INSERT ~ )
+	- statement.executeBatch()
+	- DB 왕복시간이 줄어듬
+	- JDBC도 어떻게 구성되어있는지 좀 더 볼필요가 있어보이네
+
+- MySQL Statement batching
+	- 기본적으로 MySQL JDBC driver는 지원하지 않음
+		- 지금도 그럴까?
+	-  rewriteBatchedStatements 속성을 설정하면, 단일 문자열로 배치 실행
+		- 다중값 insert 정도로
+
+- 적절한 배치 사이즈
+	- 수학적 공식은 없음
+	- 애플리케이션에서 튜닝해보면서 적절한 값을 찾는게 최적임
+	- 낮은 배치 사이즈도 트랜잭션 응답시간이 좋아짐으로 (10 - 30) 정도로 시작해서 사용하면 좋음
+
+- Hibernate batching - 기본 동작
+	- 기본적으로 JDBC 배치를 사용하지 않음
+	- 명시적으로 설정해야함
+	- hibernate.jdbc.batch_size
+	- SessionFactory, EntityManagerFactory 수준에서 설정 됨
+	- GenerationType.IDENTITY 에서는 사용할 수 없음
+		- 영속성 컨텍스트는 1차 캐쉬를 사용하기 위해 식별자를 알아야 함 
+			- 배치 처리 테이블은 sequence를 사용해보면 더 좋을 수도..?
+			- **spring, jdbc, mysql에 최적 배치를 찾아보는 것도 재밌을 듯**
+
+### 9.2 Batching Cascade Operations
+
+- Post -> PostComments (one to many)
+	- cascade = CascadeType.ALL
+	- orphanRemovel = true
+	- 엔티티 상태 전이에 따라서, 배치 처리는 어떻게 될까?
+	- hibernate.jdbc.batch_size = 5로 해보자
+- Post와 PostComments를 한 번에 **INSERT**
+	- 개별적으로 실행 됨
+	- Post, PostComment의 다른 엔티티를 바라보기 떄문에, 매 post.persist 마다 배치 작업을 flush 해야 함
+	-  이를 해결할 수 있는 법?
+		- hibernate.order_inserts = true
+		- jdbc statement를 정렬하면서도 참조 무결성이 꺠지지 않도록 유지하도록 보장함
+- **UPDATE**
+	- hibernate.order_updates 를 설정
+- Batching versioned data
+	- hibernate.jdbc.batch_versioned_data = true
+	- 기본으로 화럿ㅇ화 되어있음
+- DELETE
+	- 삭제 순서 설정은 없음
+	- 해결 법 - 1
+		- 자식 엔티티를 제거 후, flush 
+		- 이렇게 되면 statement가 교차되지 않기 떄문에 괜찮음
+	- 해결 법 - 2
+		- cascade 에서 CascadeType.PERSIST, MERGE만 사용, orphanRemoval도 제거
+		- 해당 게시글로 먼저 댓글을 모두 삭제하도록 쿼리 수행
+	- 해결 법 - 3
+		- DB 레벨에서의 처리 (on delete cascade)
+
+### 9.3 Update 연산배치 처리
+
+- default vs dynamic update
+	- 기본 update의 단점
+		- 컬럼 사이즈
+			- 큰 컬럼이 변경되지 않더라도 업데이트
+		- 인덱스
+			- 인덱스 재조정
+		- 레플리케이션
+			- 업데이트된 정보가 모든 래플리케이션에 전달 됨
+		- 언두 리두 로그
+			- 로그 크기 증가
+		- 트리거
+			- 실제 컬럼이 변경되지 않더라도 트리거가 동작할 수 있음
+
