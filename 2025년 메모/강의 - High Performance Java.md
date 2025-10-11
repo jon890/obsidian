@@ -249,4 +249,15 @@ Vlad
 
 - `@DiscriminatorColumn`
 	- String (default), Char, Integer 사용 가능
-	- 
+	- dType에 대해서 인덱스를 사용할 것이므로, 값이 짧은게 성능면으로 유리하긴하다 (얼마나 차이날까?)
+	- string 사용하는게 나아보임 ㅎㅎ 대신, 적절히 줄인정도로 사용하면 좋을듯?
+
+## 6.4 Joined 상속
+
+- subClass 수가 많지 않을 떄 사용하면 좋을듯..?
+
+### 6.5 Table per Class 상속 
+
+- 
+ 
+
