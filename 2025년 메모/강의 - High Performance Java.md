@@ -264,6 +264,62 @@ Vlad
 ### 6.6 MappedSuperclass 상속
 
 - Table per class 상속보다 더 나은 전략
-- 
- 
 
+
+## 7. 영속성 컨텍스트 그리고 플러싱
+
+### 7.1 Basics
+
+- JPA - EntityManager
+- Hibernate - Session
+- 엔티티 식별자를 키로, 엔티티 객체를 값으로 가지는 맵으로 생각할 수 있다 
+- hibernate가 먼저 개발되고 이를 인터페이스화 한 것이 JPA임
+
+- hiberante version > 5.2
+- EntityManager (interface) <- SessionImpl (실제 구현체)
+	- ㄴ Session (interface) --------⏌
+
+- 트랜잭션 write-behind cahce
+	- Application ----- Cache ----- Cache Store ----- Database
+	- application logic에서 데이터 변경시 cache.put() -> cacheStroe.enque() 됨
+	- 이후 flush를 호출해야 실제 DB에 save 됨
+	- 이 시스템은 널리 사용되고 있음
+		- 관계형 DB의 버퍼풀, OS 등.. 
+	- 쓰기 작업을 큐에 넣고, 한 번에 처리할 수 있다.
+
+- EntityManager, Session은 일반적으로 1차 캐쉬라고 불림
+	- 관리되는 모든 entity는 map에 저장되고, EntityManager에 의해 다시 꺼내 쓸 수 있음
+	- Managed Entity 상태로 만드는법
+		- EntityManager
+			- find(entityClass, primaryKey)
+			- find(entityClass, primaryKey, lockMode)
+			- getReference(entityClass, primaryKey)
+			- createQuery().getResultList()
+			- createQuery().getSingleResult()
+		- Session
+			- get(entityClass, primaryKey)
+			- load(entityClass, primaryKey)
+			- createQuery/createFilter().list()
+			- createQuery/createFilter().uniqueReesult()
+			- byId/byNaturalId(entityClass).load(primaryKey)
+			- byId/byNaturalId(entityClass).getReference(primaryKey)
+
+- Flsuhing
+	- write-behind 캐쉬 처럼, 영속성 컨텍스트는 메모리에 저장된 상태와 DB 간의 데이터를 동기화 하기위해 플러시가 필요하다.
+	- entity 변경과정을 dirty checking이라 한다.
+	- EntityManager와 Hibernate native Session 인터페이스는 flush() 메소드를 정의하고 있고 이는 메모리의 도메인 모델과, DB 구조를 동기화하는 것을 트리거하는 메소드이다. 
+
+- JPA FlushModeType
+	- AUTO 
+		- 모든 쿼리 수행 전에 flush를 트리거하는 모드
+		- 트랜잭션 커밋보다 우선적으로 일어남 
+	- COMMIT
+		- 트랜잭션이 커밋될 때만 트리거 됨
+
+- Hibernate FlushMode
+	- AUTO
+	- ALWAYS
+	- COMMIT
+	- MANUAL 
+
+### 7.2 Action Queue 
