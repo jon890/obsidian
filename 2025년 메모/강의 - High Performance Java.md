@@ -479,3 +479,33 @@ Vlad
 		- 트리거
 			- 실제 컬럼이 변경되지 않더라도 트리거가 동작할 수 있음
 
+
+## 10. Fetching
+
+### 10.1 JDBC Statement Fetch Size
+
+-  statement.setFetchSize(fetchSize) 
+- 기본값
+	- Oracle - 10
+	- SQL Server - 128
+	- PostgreSQL - 모든 데이터를 가져옴
+	- MySQL - 전체 결과 집합을 가져옴
+		- 스트리밍을 위해 다음과 같이 할 수 있음
+			- 1개씩 로딩 setFetchSize(Integer.MIN_VALUE)
+			- connection property에 useCursorFetch 설정 후 , setFetchSize(fetchSize)
+- hibernate.jdbc.fetch_size 
+
+### 10.2 JDBC ResultSet size
+
+- 왜 ResultSet 크기를 제한해야 하는가?
+	- 데이터는 시간에 따라 증가한다.  
+	- Top-N 쿼리를 사용하는 것이 바람직함
+	- 실제 필요한 컬럼만 조회하는 것이 바람직함
+
+- SQL:2008 표준 페이징
+	- FETCH FIRST N ROWS ONLY
+	- OFFSET M ROWS
+	- 지원되는 데이터베이스
+		- Oracle 12c
+		- SQL Server 2012
+		- PostreSQL 8.4
