@@ -374,3 +374,10 @@ Vlad
 	- 위 떄문에 배치 작업 시, 영속성 컨텍스트의 범위를 잘 사용하는 것이 매우 중요
 	- 주기적으로 flush and clear
 	- 배치 프로세싱에서 제일 효과적인 방법은 flush-clear-commit 
+
+### 7.5 바이트코드 향상 더티체킹
+
+- 동작 원리
+	- hibernate enhance plugin을 사용
+	- enableDirtyTracking : true로 설정
+- 
