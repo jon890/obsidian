@@ -352,3 +352,25 @@ Vlad
 	- 위와 같은 최적화로 인해, flush call을 줄이고, 1차 캐시의 동기화를 가능한 지연시키는 것을 목표로 함
 	- but.. native query SQL에는 적용되지 않음 
 	- **hibernate가 언제 flush해야하는지 판단하고 최적화 함**
+
+
+### 7.4 더티체킹 메커니즘
+
+- entity 상태가 transient -> managed로 될 떄, hibernate는 INSERT문을 실행한다. 
+- entity가 removed로 마킹되면, SQL DELETE가 실행된다.
+- UPDATE는 연관된 전이 상태가 없다.
+- entity가 managed가 되면, 영속성 컨텍스트는 초기 상태와, 플러시 시점의 상태를 비교해 SQL UPDATE문을 수행한다. 
+
+- 기본 메커니즘
+	- PersistenceContext ----- Session ----- DefaultFlushEventListener ----- DefaultFlushEntityEventListener ----- AbstractEntityPersister ----- TypeHelper
+	- AbstractEntityPersister.findDirty() 
+		- 여기에서 엔티티의 변경점을 찾음 
+	- 더티 체크 횟수는, 엔티티 x 엔티티 속성 수
+	- final Object[] loadedState = persister.hydrate(resultSet, id, object, rootPersister, cols, fetchAllPropertiesRequested, session)
+	- 로딩 시점의 상태도 보관해야함으로, 매니지드 엔티티를 저장하기 위해 2배의 메모리가 필요하다. 
+	- 엔티티를 업데이트할 필요가 없다면, read-only 모드로 가져오는 것이 효율적이다.
+
+- 배치 프로세싱
+	- 위 떄문에 배치 작업 시, 영속성 컨텍스트의 범위를 잘 사용하는 것이 매우 중요
+	- 주기적으로 flush and clear
+	- 배치 프로세싱에서 제일 효과적인 방법은 flush-clear-commit 
