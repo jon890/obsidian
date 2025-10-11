@@ -386,4 +386,14 @@ Vlad
 
 ## 8 . Statements
 
+- 실행 계획
+	- MySQL
+		- EXPLAIN EXTENDED
+		- EXPLAIN FORMAT=JSON
+	- ExecutionPlanTest를 확인해보면 애플리케이션에서 createNativeQuery를 활용하여 실행계획도 보는 것을 확인할 수 있다. 
+	- 각 DB 클라이언트에서 제공해주는 실행계획을 확인하면 더 이해할 수 있도록 정보를 많이 제공해줌 (visual explain)
+
+
+## 9. Batching
+
 - 
