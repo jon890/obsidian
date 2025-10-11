@@ -322,4 +322,4 @@ Vlad
 	- COMMIT
 	- MANUAL 
 
-### 7.2 Action Queue 
+### 7.2 Action Queue  
