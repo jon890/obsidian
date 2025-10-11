@@ -258,6 +258,12 @@ Vlad
 
 ### 6.5 Table per Class 상속 
 
+- entity 간의 상속된 데이터들이, 각 테이블에 모두 존재하게끔 상속하는 것
+	- 다형성 쿼리 시, union all로 가져오게 됨으로 성능상 불리함이 있다. 
+
+### 6.6 MappedSuperclass 상속
+
+- Table per class 상속보다 더 나은 전략
 - 
  
 
