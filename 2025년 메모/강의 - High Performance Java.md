@@ -380,4 +380,8 @@ Vlad
 - 동작 원리
 	- hibernate enhance plugin을 사용
 	- enableDirtyTracking : true로 설정
-- 
+- reflection vs bytecode enhancement
+	- 개선효과가 엄청나진 않은듯..
+
+
+## 8 . Statements
