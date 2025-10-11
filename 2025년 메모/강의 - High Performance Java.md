@@ -323,3 +323,32 @@ Vlad
 	- MANUAL 
 
 ### 7.2 Action Queue  
+
+- flush 상태에서 사용하는 동작을 action으로 정의하여 queue로 보관하고 수행
+	- EntityInsertAction
+	- EntityUpdateAction
+	- EntityDeleteAction 
+
+- 영속성 컨텍스트 플러시가 끝나기전, 모든 엔티티 액션이 엄격한 순서에 따라서 실행 됨
+		- OrphanRemovalAction
+		- EntityInsertAction and EntityIdentityInsertAction
+		- EntityUpdateAction
+		- CollectionremoveAction
+		- CollectionUpdateAction
+		- CollectionRecreateAction
+		- EntityDeleteAction 
+	- FlushOrderTest
+		- **위와 같은 순서 떄문에, unqiue 제약이 걸린 행을 제거 후, insert하는 로직이 있다면 수행되지 않음**
+			- 물론 위 로직이 일반적이라고 할 순 없음, 고유한 식별자를 update 하고, insert하는 것이 바람직한 로직임
+
+### 7.3 FlushModeType.AUTO
+
+- JPA
+	- 모든 jpql or native SQL query 실행 시, 트리거 됨
+- Hibernate
+	- 반드시 모든 쿼리 수행에서 트리거되지는 않음 
+	- 스마트 플러시 메커니즘을 사용함
+	- 엔티티 상태 전이가 pending되어있는 상태일 때만 flush를 트리거함
+	- 위와 같은 최적화로 인해, flush call을 줄이고, 1차 캐시의 동기화를 가능한 지연시키는 것을 목표로 함
+	- but.. native query SQL에는 적용되지 않음 
+	- **hibernate가 언제 flush해야하는지 판단하고 최적화 함**
