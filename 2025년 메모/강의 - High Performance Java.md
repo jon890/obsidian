@@ -509,3 +509,28 @@ Vlad
 		- Oracle 12c
 		- SQL Server 2012
 		- PostreSQL 8.4
+
+- JPQL Query - 페이징
+	- setFirstResult()
+	- setMaxResults()
+
+- JDBC Statement max rows
+	- statement.setMaxRows(maxRows)
+	- **SQL 실행 계획에는 영향을 주지 않음**
+		- DB에서 optimizer에 영향을 주지 않음으로, table full scan 할 수 도 있음
+	- 문서에 따르면, 제한이 초과되면, 초과된 행은 조용히 버려진다고 함
+
+### 10.3 JPA Query Projections 
+
+- Default projection
+	- 기본적으론 `Object[]`로 프로젝션 된다.
+	- ```java
+	  List<Object[]> tuples = entityManager.createNativeQuery("""
+		  SELECT p.id AS id,
+				 p.title AS title
+		  FROM post p
+		  """).getResultList();
+	  ```
+- Tuple projection
+- DTO projection
+- 
