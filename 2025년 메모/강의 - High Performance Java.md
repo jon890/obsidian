@@ -532,5 +532,32 @@ Vlad
 		  """).getResultList();
 	  ```
 - Tuple projection
+	- ```java
+	  List<Tuple> tuples = entityManager.createNativeQuery("""
+		  SELECT p.id AS id,
+				 p.title AS title
+	  """).getResultList();
+	  ```
+	  java의 map처럼 작동하는 인터페이스, 더 안전해지긴했지만, 타입 안전하지 않아 여전히 불편하다!
 - DTO projection
-- 
+	- ClassImportIntegrator를 통해 단순 클래스 목록을 제공 가능하다
+		- hibernate.integrator_provider 속성에 제공하면 됨
+	- SqlResultSetMapping
+		- NamedNativeQuery 
+		- 귀찮다..!!
+	- Java 14 Records
+
+### 10.4 Hibernate Query Projections
+
+- AliasToBeanResultTransformer
+	- 기본 생성자로 새로운 인스턴스 생성, setter를 통해 값을 채워넣음
+- ```java
+  List<PostDTO> postDTOs = entityManager.createNativeQuery("""
+	  SELECT p.id AS "id", // column 명이 대문자로 반환될 수 있기 때문에 alias 사용
+		     p.title AS "title"
+	  FROM post p
+	  """)
+  .unwrap(org.hibernate.query.Query.class) // hibernate Query 객체로 변환
+  .setResultTransformer(Transformers.aliasToBean(PostDTO.class))
+  .getResultList();
+  ```
