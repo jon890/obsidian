@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025년 메모/2025-9월-5주.md",
+                "file": "2025년 메모/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-9월-5주"
+              "title": "README"
             }
           },
           {
-            "id": "4bdadd232cc1b01c",
+            "id": "7e03829010fe18b2",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "2025년 메모/2025-10월-3주.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "2025-10월-3주"
             }
           }
         ],
@@ -194,16 +196,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4bdadd232cc1b01c",
+  "active": "7e03829010fe18b2",
   "lastOpenFiles": [
+    "2025년 메모/2025-10월-3주.md",
+    "2025년 메모/README.md",
+    "2025년 메모/호주여행.md",
+    "2025년 메모/LA여행정리.md",
+    "2025년 메모/2025-9월-5주.md",
     "2025년 메모/2025-9월-4주.md",
     "2025년 메모/2025-9월-3주.md",
-    "2025년 메모/2025-9월-5주.md",
     "2025년 메모/강의 - High Performance Java.md",
     "2025년 메모/개인커리어고민.md",
-    "2025년 메모/README.md",
     "2025년 메모/자바 스프링 개발자를 위한 실용주의 프로그래밍.md",
-    "2025년 메모/LA여행정리.md",
     "2025년 메모/첫 페이지 로드시간을 개선해보자.md",
     "2025년 메모/코드리뷰.md",
     "2025년 메모/은행은 왜 무한스크롤이 안되나요?.md",
@@ -213,7 +217,6 @@
     "2025년 메모/2025-6월-2주.md",
     "2025년 메모/2025-8월-3주.md",
     "무제.md",
-    "2025년 메모/호주여행.md",
     "2025년 메모/2025-8월-2주.md",
     "2025년 메모/2025-8월-1주.md",
     "2025년 메모/REDIS 뜯어보기.md",
@@ -221,7 +224,6 @@
     "2025년 메모/허리통증일지.md",
     "2025년 메모/2025-7월-4주.md",
     "2025년 메모/2025-7월-3주.md",
-    "2025년 메모/2025-6월-1주.md",
     "스크린샷 2025-05-20 오후 7.23.39.png",
     "스크린샷 2025-05-16 오전 10.30.07.png",
     "자바",
