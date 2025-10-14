@@ -573,4 +573,5 @@ Vlad
 		- entity POJO를 가져온다
 	- entityManager.getReference(Post.class, 1L);
 		- entity Proxy를 가져온다
+		- 식별자 외의 값들은 지연 로딩된다.
 	- FindVsGetReferenceTest로 비교해보자
