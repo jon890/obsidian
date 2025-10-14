@@ -590,4 +590,13 @@ Vlad
 - FetchType.EAGER
 	- 엔티티를 직접 조회할 떄, LEFT JOIN으로 가져온다
 	- JPQL or Criteria API (Entity Query)로 조회할 때, FetchType.EAGER 연관관계를 명시적으로 JON FETCH로 지정하지 않으면 2가지 쿼리로 분리되어 조회 됨
-	- 
+
+- FetchType.LAZY
+	- ManyToOne, OneToOne에서 즉시 로딩하지 않기 위해 사용
+		- LEFT JOIN으로 조회하지 않는다
+		- proxy 객체로 지연 로딩 된다.
+		- 연관된 데이터를 필요할 떄 가져올 수 있게 한다.
+	- 그러나 Post - PostComments 조회 시, 게시물이 여러개 있을 떄, 코멘트가 N+1로 쿼리 되는 문제가 있을 수 있음
+
+- N+1 쿼리 문제는, LAZY 연관관계 때문만은 아님
+	- JPQL 쿼리를 수행할 때, FetchType.EAGER 연관관계에서, PostComment를 조회하면, 댓글 목록에 모든 Post가 N개 조회될 수 있음
