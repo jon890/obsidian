@@ -612,4 +612,22 @@ Vlad
 
 ## 11. 트랜잭션과 동시성 제어 패턴
 
-- 
+### 11.2 DB 트랜잭션
+
+- 트랜잭션 실행 시, 얼마나 많은 statement가 포함 될지를 고민해야한다.
+- ACID
+	- Atomicity : 원자성
+		- 롤백이 반드시 필요
+	- Consistency
+		- 일관성
+		- 컬럼 타입, 길이, 널
+	- Isolation
+	- Durability
+
+- DB는 어떻게 동작하는가?
+	- Undo Log
+		- 롤백 시 사용되는 로그
+		- undo log를 다시 적용하면 이전 상태로 돌아갈 수 있음
+	- Storage Engine
+	- Redo Log
+		- 동기화 전에 DB가 중단되었다면, 완료된 트랜잭션 이후를 Redo Log에서 읽어서 동기화를 진행햐야 함
