@@ -579,4 +579,15 @@ Vlad
 - 궁금한 점
 	- 2차 캐쉬는 어떻게 구성되어있을까?
 	- org.hibernate.annotations.Cache(useage = CacheConcurrencyStrategy.READ_WRITE)
+
+### 10.6 연관관계(Associations) 패치
+
+- @ManyToOne @OneToOne
+	- default - FetchType.EAGER
+- @OneToMany, @ManyToMany
+	- default - FetchType.LAZY 
+
+- FetchType.EAGER
+	- 엔티티를 직접 조회할 떄, LEFT JOIN으로 가져온다
+	- JPQL or Criteria API (Entity Query)로 조회할 때, FetchType.EAGER 연관관계를 명시적으로 JON FETCH로 지정하지 않으면 2가지 쿼리로 분리되어 조회 됨
 	- 
