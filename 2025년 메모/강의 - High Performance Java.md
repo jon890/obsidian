@@ -575,3 +575,8 @@ Vlad
 		- entity Proxy를 가져온다
 		- 식별자 외의 값들은 지연 로딩된다.
 	- FindVsGetReferenceTest로 비교해보자
+
+- 궁금한 점
+	- 2차 캐쉬는 어떻게 구성되어있을까?
+	- org.hibernate.annotations.Cache(useage = CacheConcurrencyStrategy.READ_WRITE)
+	- 
