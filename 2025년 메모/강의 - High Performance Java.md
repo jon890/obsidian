@@ -561,3 +561,16 @@ Vlad
   .setResultTransformer(Transformers.aliasToBean(PostDTO.class))
   .getResultList();
   ```
+- Hibernate에서는 parent - child 간의 DTO 매핑도 지원한다.
+	- PostDTO에서 `List<PostCommentDTO>`를 가질 수 있다는 뜻
+	- HibernateDTOProjectionTest.testParentChildDTOProjectionNativeQueryTupleTransformer에 정의된 테스트를 참조해보자
+
+
+### 10.5 엔티티 패치(fetch)
+
+- Entity identifier direct fetching - JPA
+	- entityManager.find(Post.class, 1L);
+		- entity POJO를 가져온다
+	- entityManager.getReference(Post.class, 1L);
+		- entity Proxy를 가져온다
+	- FindVsGetReferenceTest로 비교해보자
