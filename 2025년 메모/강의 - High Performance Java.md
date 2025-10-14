@@ -631,3 +631,10 @@ Vlad
 	- Storage Engine
 	- Redo Log
 		- 동기화 전에 DB가 중단되었다면, 완료된 트랜잭션 이후를 Redo Log에서 읽어서 동기화를 진행햐야 함
+
+### 11.3 Isolation
+
+- Locking
+	- Lock만으로는 충돌을 피하기는 부족하다.
+	- Read/Shared Lock 읽기는 허용, 쓰기 불가
+	- WRite/Exclusive Lock 읽기 불가, 쓰기 불가
