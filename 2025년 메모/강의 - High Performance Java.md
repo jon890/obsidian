@@ -657,3 +657,6 @@ Vlad
 - 락 옵션
 	- LockOption.NO_WAIT
 		- 기다리지 않고, 빠른 예외
+	- LockOption.SKIP_LOCKED
+		- 이미 락이 걸린 로우는 넘어가고, 락이 걸리지 않은 로우만 락
+		- 
