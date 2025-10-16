@@ -649,6 +649,7 @@ Vlad
 	- MySQL
 		- Shared - LOCK IN SHARED MODE
 		- Exclusive - FOR UPDATE
+			- for update로 행 단위의 잠금을 걸 때, 해당 테이블에 insert가 불가능
 	- PostgreSQL
 		- Shared - FOR SHARE
 		- Exclusive - FOR UPDATE
