@@ -737,4 +737,8 @@ Vlad
 	- 이를 위해 DB 캐시만으로는 충분하지 않다는 뜻도 됨
 	- 애플리케이션 캐시를 사용!
 
-- 
+- 스택 오버 플로우는 모든 데이터를 캐시
+	- 읽기 전용으로 웹 사이트 운영 가능
+	- DB 업그레이드 등 유지보수 가능
+
+- Redis, Memcached, Hazelcast, Etcd, Ehcache, Aerospike
