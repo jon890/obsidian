@@ -653,3 +653,7 @@ Vlad
 	- PostgreSQL
 		- Shared - FOR SHARE
 		- Exclusive - FOR UPDATE
+
+- 락 옵션
+	- LockOption.NO_WAIT
+		- 기다리지 않고, 빠른 예외
