@@ -659,4 +659,19 @@ Vlad
 		- 기다리지 않고, 빠른 예외
 	- LockOption.SKIP_LOCKED
 		- 이미 락이 걸린 로우는 넘어가고, 락이 걸리지 않은 로우만 락
-		- 
+
+### 11.5 Optimistic Locking (낙관적 잠금)
+
+- timestamp
+- version 등으로 잠금
+
+- OS timestamp issues
+	- 시간으로 관리할 경우 문제가 발생할 수 있음
+	- 시간은 네트워크와 동기화 되기 때문에, 이전 시간을 반환할 수도 있음
+
+- Version 기반 잠금
+	- short 타입으로 해도 괜찮을까?
+		- 65536번 수정하고, 수정되지 않은 것처럼 동작할 수 있긴 함
+
+- 사용사례
+	- 
