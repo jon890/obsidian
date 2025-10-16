@@ -638,3 +638,17 @@ Vlad
 	- Lock만으로는 충돌을 피하기는 부족하다.
 	- Read/Shared Lock 읽기는 허용, 쓰기 불가
 	- WRite/Exclusive Lock 읽기 불가, 쓰기 불가
+
+### 11.4 Pessimistic Locking (비관적인 잠금)
+
+- 명시적인 물리적 잠금 모드
+	- Oracle
+		- Shared - FOR UPDATE
+		- Exclusive - FOR UPDATE
+			- 해당 트랜잭션을 커밋할 때 까지, 다른 사용자가 읽기를 제한함
+	- MySQL
+		- Shared - LOCK IN SHARED MODE
+		- Exclusive - FOR UPDATE
+	- PostgreSQL
+		- Shared - FOR SHARE
+		- Exclusive - FOR UPDATE
