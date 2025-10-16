@@ -684,3 +684,57 @@ Vlad
 		- 실패해도 예외를 던지면 별로 좋지 않을 것 같다..
 		- retry?
 			- 이 것도 엄청나게 조회를 시도하면, 계속 실패할 수 있지 않을까..
+
+
+## 12. 최적의 캐싱 방법
+
+### 12.1 DB 캐싱
+
+- 캐시 동기화 전략 - Read through
+	- 애플리케이션 - 캐시 - 캐시 저장소 - 데이터베이스
+	- 예를 들어, 애플리케이션은 cache.get()만 호출하면, 캐시에서 가져오든 DB에서 가져오든 엔티티를 가져올 수 있게 된다.
+- Write-behind
+	- Cache.update()를 호출한 결과를 queue에 쌓아둠
+	- Cache.flush() 호출 시, 버퍼링한 결과들을 모두 DB에 업데이트
+
+- 데이터베이스와 OS 캐시
+	- 많은 DB 엔진들은 읽기, 쓰기동작의 속도를 위해 내부 캐시 매커니즘을 사용한다.
+	- 가장 흔한 DB 캐시 컴포넌트로는 인메모리 버퍼 풀이 있다.
+		- 다른 캐시 컴포넌트로는 실행 계획 캐시, 쿼리 결과 버퍼등이 있다.
+	- DB에서 쓰기가 발생할 때 마다 디스크에 쓴다면, I/O 작업이 엄청나게 될 것이다.
+		- 5분마다 주기적으로 flush
+		- 이 정보를 redo log가 보관하여, flush
+		- DB 시스템이 다운되어도, redo log를 통해 복원
+	- Oracle
+		- PGA(Program Global Area)
+			- ORDER BY
+			- Window Functions
+			- Hash Join
+		- SGA(System Global Area)
+	- PostgreSQL
+		- 운영체제 캐시에 의존
+		- Shared Buffer - OS Cache - Disk Drive
+		- 공유버퍼와, OS Cache 모두에 저장될 수도 있음
+		- 그래서 Shared Buffer가 너무 클 수 없음
+			- shared buffer를 OS RAM의 15 ~ 25% 정도만 사용
+		- vacuum
+			- 사용되지 않은 오래된 페이지, 데이터를 수집하여 재할당 될 수 있도록 함
+			- MVCC 때문에 이 것이 필요함
+			- 가비지 컬렉터처럼 동작
+	- MySQL
+		- Oracle과 비슷하게 동작
+		- Direct I/O 사용
+		- 버퍼풀을 80 ~ 90% 까지 사용 가능
+		- SHOW ENGINE INNODB STATUS
+			- InnoDB에 할당된 버퍼풀 사이즈를 알 수 있음
+			- 캐시 히트율이 높은지 파악도 해볼 수 있다
+
+### 12.2 애플리케이션 캐시
+
+- 버퍼 풀은 데이터 페이지만 캐쉬 됨
+	- 실행 계획등은 버퍼 풀에 캐시 되지 않으므로
+	- 여러 테이블이 조인되는 쿼리는 CPU등의 자원을 많이 소모할 수 있음
+	- 이를 위해 DB 캐시만으로는 충분하지 않다는 뜻도 됨
+	- 애플리케이션 캐시를 사용!
+
+- 
