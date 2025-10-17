@@ -742,3 +742,37 @@ Vlad
 	- DB 업그레이드 등 유지보수 가능
 
 - Redis, Memcached, Hazelcast, Etcd, Ehcache, Aerospike
+
+
+### 12. 3 하이버네이트 2차 캐시
+
+- 왜 사용할까?
+	- 단일 Primary Node, 4개의 복제 노드
+	- 읽기 트래픽이 더 증가하면, 복제 노드를 더 증가시킴
+	- 쓰기 부하가 커지면 단일 Primary Node의 부하가 계속 커질 수 있음
+	- 단일 Primary Node의 하드웨어를 좋게하는 수직 확장으로 확장해야 함
+	- 또 다른 방법으로 부하를 분산하기 위해 2차 캐시를 사용할 수 있음
+
+- 하이버네이트는 다양한 2차 캐시 옵션을 제공함
+	- 엔티티 캐시
+	- 컬렉션 캐시
+	- 쿼리 캐시
+	- NaturalId 캐시
+
+- 간단한 동작방식
+	- 엔티티 조회
+		- 1. Session 캐시에서 엔티티를 찾음
+		- 2. 없다면 2차 캐시에서 엔티티를 찾음
+		- 3. 없다면 데이터 소스에서 엔티티를 찾음
+		- 4. 엔티티 반환
+
+- 2차 캐시는 기본적으로 활성화 되어있음
+	- 그런데 NoOp 처럼 동작함
+	- RegionFactory를 명시적으로 제공해야 동작함
+	- hibernate.cache.region.factory_class
+		- ehcache
+		- jcache
+
+- 엔티티가 자동으로 캐시되지는 않음
+	- org.hibernate.annotations.cache 애노테이션으로 캐시 전략을 제공해야 동작함
+	- 
