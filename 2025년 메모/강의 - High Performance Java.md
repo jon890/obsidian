@@ -828,3 +828,23 @@ Vlad
 		- 캐시의 어려운 부분은 동기화하는 것이다.
 		- 데이터가 불변이라면 삭제에 대해서만 신경쓰면 됨
 		- 꼭 하이버네이트 2차 캐시를 사용할 필요는 없을 것, 다른 캐시 솔루션을 사용해도 무방
+		- write-through로 동작
+		- 컬렉션은 read-through로 동작
+			- DB에서 읽기 전에, 캐쉬를 확인 후 반환
+		- Immutable Entity는 업데이트 할 수 없음
+			- 그렇다고 DELETE가 안되는 것은 아님
+	- NONSTRICT_READ_WRITE
+		- 캐시가 웹노드 외부에 저장
+		- 모든 웹 노드에 캐시를 중복저장하지 않아도 되는 장점이 있음
+		- Insert
+			- putCount = 0
+			- read-through로 동작, 항목을 저장하지 않는다. 데이터를 읽을 때 캐시에 저장
+		- Fetch
+			- missCount = 1, putCount = 1
+		- Update
+			- EntityUpdateAction - NonStrictReadWriteEhCacheEntityRegionAccessStrategy - net.sf.ehcache.Cache
+				- flush 시점에, 관련된 항목이 있을 때, 캐시에서 제거
+				- flush 완료 후에도, 캐시를 한 번 제거
+				- flush 수행 시점에 변경될 수 도 있기 때문
+				- commit 후에야 영속상태가 되기 때문 
+
