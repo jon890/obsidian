@@ -775,4 +775,52 @@ Vlad
 
 - 엔티티가 자동으로 캐시되지는 않음
 	- org.hibernate.annotations.cache 애노테이션으로 캐시 전략을 제공해야 동작함
+
+- 엔티티 캐시의 키
+	- primary key가 KEY가 됨
+	- 값은 loadedState, Object[], StandardCacheEntryImpl, 분해된 상태로 저장
+
+- 객체 참조도 저장할 수 있음
+	- hibernate.cache.use_reference_entries : true
+	- 객체를 힙에 저장된 그대로 저장할 수 있음
+	- 여러 제한 사항이 있음
+		- 읽기 전용으로만 동작
+		- @Cache(useage = CacheConcurrencyStrategy.READ_ONLY)
+		- 엔티티 연관관계를 사용할 수 없고, 기본 속성만 사용할 수 있음
+		- 이러한 제한 사항때문에 크게 유용하지는 않음
+
+- 컬렉션 캐시
+	- 연관관계의 컬렉션에 캐쉬 애노테이션을 사용할 수 있음
+
+- 쿼리 캐시
+	- hibernate.cache.use_query_cache : true
+	- 기본값은 false
+	- 모든 쿼리가 자동으로 캐시되지는 않음
+	- JPA를 사용한다면 힌트를 사용해야함 
+		- setHint("org.hibernate.cacheable", true)
+	- DB에서 실행되는 캐시와 정확히 일치함
+	- timestamp와 함께 저장
+	- 엔티티 식별자를 저장
+	- DTO 프로젝션에도 사용할 수 있음
+		- 캐시값에는 로드된 상태들이 저장 됨
+
+- NaturalID 캐시
+	- 자연 ID = 비즈니스 키, 특정 컬럼으로 특정 레코드를 식별할 수 있음 값
+	- 주민번호, UUID 등
+	- NatrualID 로 Fetching 하면 2개의 쿼리가 호출 됨
+		- 자연ID로 엔티티를 불러옴
+		- 엔티티가 캐쉬되어 있지 않다면, Entity ID로 한 번더 조회 후, 캐시
+			- 이 2번째 쿼리가 실행되지 않도록, 2차 캐시를 사용할 수 있음
+	- ```java
+	  @Entity(name = "post")
+	  @Table(name = "post)
+	  @org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
+	  @NatrualIdCache
+	  public class Post {
+	  }
+	  ```
+	  - @NaturalIdCache 애노테이션을 사용하면, 첫 번째 쿼리(자연ID로 조회하는 쿼리)를 캐시할 수 있음
+
+- 2차 캐시 - 캐시 동시성 전략
+	- 이 솔루션을 사용하는 이유 => 강력한 일관성을 제공함
 	- 
