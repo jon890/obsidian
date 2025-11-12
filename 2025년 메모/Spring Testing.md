@@ -21,4 +21,15 @@
 
 - org.springframework.test.context 패키지에 위치
 - 테스팅 프레임워크 (junit4, junit5) 등에 관계 없이 동작할 수 있도록, 제너릭, 애노테이션 기반으로 동작
+
+
+### TestContext
+
+- 테스트가 동작하는 컨텍스트를 캡슐화 한 것 (어떤 테스팅 프레임워클르 쓰는지와 관계없이)
+- 테스트 인스턴스에 대한 컨텍스트 관리 캐시를 지원
+- ApplicationContext 가 요청되면 SmartContextLoader에게 위임하여 요청
+
+
+### TestContextManager
+
 - 
