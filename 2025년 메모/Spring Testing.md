@@ -43,3 +43,10 @@
 	- `BeanOverrideTestExecutionListener` - 빈을 오버라이딩하는 테스트를 도와준다
 	- ...
 
+### Application Events
+
+- TestContext 프레임워크는 `ApplicationContext` 에서 발행된 애플리케이션 이벤트를 기록하는 것도 지원한다
+- 그래서 테스트 중에 이벤트들이 발행되는 것을 기록하여 검증할 수 있도록 한다.
+- 테스트 클래스에 메타 애노테이션을 붙이자 - `@RecordApplicationEvents`
+	- `ApplicationEventsTestExecutionListener`가 등록됨
+- `ApplicationEvenets` 를 주입받아서 사용할 수 도 있음
