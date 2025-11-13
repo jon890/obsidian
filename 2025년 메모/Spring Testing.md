@@ -32,4 +32,14 @@
 
 ### TestContextManager
 
-- 
+
+
+### TestExecutionListenerConfiguration
+
+- 스프링은 기본으로 `TestExecutiopnListener` 구현들을 등록해 놓고 있다, 그리고 순서는 다음과 같다
+	- `ServletTestExecutionListener` - `WebApplicationContext` 를 위해 Server API 를 모킹하고 있는 설정
+	- `DirtiesContextBeforeModesTestExecutionListener` - before 모드를 위해 `@DirtiesContext` 애노테이션을 처리한다
+	- `ApplicationEventsTeestExecutionListener` - `ApplicationEvents`를 도와주는 역할을 한다
+	- `BeanOverrideTestExecutionListener` - 빈을 오버라이딩하는 테스트를 도와준다
+	- ...
+
