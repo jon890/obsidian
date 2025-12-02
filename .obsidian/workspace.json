@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "2025-11월-2주"
             }
+          },
+          {
+            "id": "b844a5a1104a12b3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "41b0c55b994c3e4e",
+  "active": "b844a5a1104a12b3",
   "lastOpenFiles": [
     "2025년 메모/LA여행정리.md",
     "2025년 메모/2025-11월-2주.md",
