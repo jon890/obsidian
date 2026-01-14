@@ -146,9 +146,21 @@
               "icon": "lucide-file",
               "title": "2026년 1월 2주"
             }
+          },
+          {
+            "id": "ce14da2acbbe74a8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -308,7 +320,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebbed85df7281ce0",
+  "active": "ce14da2acbbe74a8",
   "lastOpenFiles": [
     "2026년 메모/2026년 1월 2주.md",
     "2026년 메모/README.md",
