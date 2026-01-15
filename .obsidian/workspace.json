@@ -151,12 +151,14 @@
             "id": "ce14da2acbbe74a8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "2026년 메모/2026년 1월 2주.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "lucide-file",
+              "title": "2026년 1월 2주"
             }
           }
         ],
