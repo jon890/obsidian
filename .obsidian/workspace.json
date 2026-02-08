@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 2월 1주.md",
+                "file": "2026년 메모/2026년 2월 1주.md",
                 "mode": "source",
                 "source": false
               },
@@ -73,7 +73,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -186,8 +186,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -200,19 +200,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12bd0f692df98ebb",
+  "active": "41b0c55b994c3e4e",
   "lastOpenFiles": [
-    "2026년 2월 1주.md",
+    "2026년 메모/2026년 2월 1주.md",
     "2026년 메모/README.md",
     "2026년 메모/2026년 1월 4주.md",
     "2026년 메모/2026년 1월 3주.md",
