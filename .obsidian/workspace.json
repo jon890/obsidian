@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "2026 3월 4주"
             }
+          },
+          {
+            "id": "437e5ff2109f3ace",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.12.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -224,7 +236,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "32b217062161533b",
+  "active": "437e5ff2109f3ace",
   "lastOpenFiles": [
     "2026년 메모/README.md",
     "2026년 메모/2026 3월 4주.md",
