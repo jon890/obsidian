@@ -77,8 +77,7 @@
               "title": "2026년 3월 5주"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,7 +237,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae38ec81c2d6a4a4",
+  "active": "f571658d93ffacd8",
   "lastOpenFiles": [
     "2026년 3월 5주.md",
     "2026년 메모/README.md",
