@@ -4,151 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "70ac73a82d79822a",
+        "id": "450a7316c34088b5",
         "type": "tabs",
         "children": [
           {
-            "id": "f571658d93ffacd8",
+            "id": "972ebd34517f702a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 메모/README.md",
+                "file": "2026년 메모/2026년 5월 2주.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "b9ecc502c3f6c64b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 5월 1주.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026년 5월 1주"
-            }
-          },
-          {
-            "id": "3065fe8e7936d4df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "e9d1b1c8aecc8235",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "91ab0c3efe7f83eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "ed2668208a218dc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/2026년 4월 4주.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026년 4월 4주"
-            }
-          },
-          {
-            "id": "934a0a50d3ff0589",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "11c6b02d50f1268a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "32b217062161533b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "ae38ec81c2d6a4a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026년 메모/2026년 3월 5주.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026년 3월 5주"
+              "title": "2026년 5월 2주"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -308,18 +181,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9ecc502c3f6c64b",
+  "active": "972ebd34517f702a",
   "lastOpenFiles": [
-    "2026년 5월 1주.md",
-    "2026년 메모/README.md",
     "2026년 메모/2026년 4월 4주.md",
+    "2026년 메모/README.md",
+    "2026년 메모/RAG_아키텍처_분석_토스_우아한형제들_Sionic_AI_전략_비교.pdf",
+    "2026년 메모/2026년 3월 5주.md",
+    "2026년 메모/2026년 5월 2주.md",
+    "Hello Obsidian.md",
+    "2026년 메모/2026년 5월 1주.md",
     "2026년 메모/2026년 1월 1주.md",
     "2026년 메모/2026년 4월 3주.md",
     "2026년 메모/2026년 4월 2주.md",
     "2026년 메모/2026년 1월 2주.md",
-    "2026년 메모/RAG_아키텍처_분석_토스_우아한형제들_Sionic_AI_전략_비교.pdf",
     "2026년 메모/2026년 4월 1주.md",
-    "2026년 메모/2026년 3월 5주.md",
     "2026년 메모/다른 기업의 RAG 시스템 발표자료.md",
     "2026년 메모/2026년 3월 4주.md",
     "2026년 메모/2026년 3월 3주.md",
@@ -335,9 +210,6 @@
     "2025년 메모/호주여행.md",
     "2025년 메모/LA여행정리.md",
     "2025년 메모/첫 페이지 로드시간을 개선해보자.md",
-    "2025년 메모/2025-12월-5주.md",
-    "2025년 메모/2025를 정리하며.md",
-    "2025년 메모/Untitled.md",
     "Untitled 1.base",
     "Untitled.base",
     "스크린샷 2025-05-20 오후 7.23.39.png",
