@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778581198703,
+  "projectRoot": "/Users/kbt/personal/obsidian",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "2024년 메모": {
+      "path": "2024년 메모",
+      "purpose": null,
+      "fileCount": 64,
+      "lastAccessed": 1778581198687,
+      "keyFiles": [
+        "2023-12-21.md",
+        "2024-01-02.md",
+        "2024-01-03.md",
+        "2024-01-04.md",
+        "2024-01-05.md"
+      ]
+    },
+    "2025년 메모": {
+      "path": "2025년 메모",
+      "purpose": null,
+      "fileCount": 61,
+      "lastAccessed": 1778581198688,
+      "keyFiles": [
+        "2025-10월-3주.md",
+        "2025-10월-5주.md",
+        "2025-11월-1주.md",
+        "2025-11월-2주.md",
+        "2025-11월-3주.md"
+      ]
+    },
+    "2026년 메모": {
+      "path": "2026년 메모",
+      "purpose": null,
+      "fileCount": 19,
+      "lastAccessed": 1778581198688,
+      "keyFiles": [
+        "2026년 1월 1주.md",
+        "2026년 1월 2주.md",
+        "2026년 1월 3주.md",
+        "2026년 1월 4주.md",
+        "2026년 2월 1주.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "conflict-files-obsidian-git.md",
+      "accessCount": 1,
+      "lastAccessed": 1778581226539,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

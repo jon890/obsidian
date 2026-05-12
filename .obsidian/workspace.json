@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 메모/README.md",
+                "file": "2026년 메모/2026년 5월 2주.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "a155e3a4fdcd2dd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "2026년 5월 2주"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a155e3a4fdcd2dd7",
+  "active": "7b69dfbff878a1e3",
   "lastOpenFiles": [
     "2026년 메모/README.md",
     "conflict-files-obsidian-git.md",
