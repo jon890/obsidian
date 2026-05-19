@@ -71,9 +71,75 @@
   },
   "hotPaths": [
     {
+      "path": "wiki/INDEX.md",
+      "accessCount": 5,
+      "lastAccessed": 1779150245892,
+      "type": "file"
+    },
+    {
+      "path": "wiki/topics/rag-system-architecture-strategies.md",
+      "accessCount": 4,
+      "lastAccessed": 1779147980979,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 3,
+      "lastAccessed": 1779149880563,
+      "type": "file"
+    },
+    {
       "path": "conflict-files-obsidian-git.md",
       "accessCount": 2,
       "lastAccessed": 1779066079170,
+      "type": "file"
+    },
+    {
+      "path": "wiki/log.md",
+      "accessCount": 2,
+      "lastAccessed": 1779150243293,
+      "type": "file"
+    },
+    {
+      "path": "raw/notes/다른 기업의 RAG 시스템 발표자료.md",
+      "accessCount": 1,
+      "lastAccessed": 1779147379230,
+      "type": "file"
+    },
+    {
+      "path": "raw/papers/RAG_아키텍처_분석_토스_우아한형제들_Sionic_AI_전략_비교.pdf",
+      "accessCount": 1,
+      "lastAccessed": 1779147405106,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/toss-park-ssi-rag.md",
+      "accessCount": 1,
+      "lastAccessed": 1779147442728,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/docflow-code-to-doc.md",
+      "accessCount": 1,
+      "lastAccessed": 1779147454345,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/woowa-mulebose-text-to-sql.md",
+      "accessCount": 1,
+      "lastAccessed": 1779147467833,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/multi-chain-rag-architecture.md",
+      "accessCount": 1,
+      "lastAccessed": 1779147476853,
+      "type": "file"
+    },
+    {
+      "path": "wiki/concepts/sionic-vlm-document-parsing.md",
+      "accessCount": 1,
+      "lastAccessed": 1779147493939,
       "type": "file"
     }
   ],

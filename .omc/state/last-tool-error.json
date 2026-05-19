@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"ls /Users/nhn/.claude/projects/-Users-nhn-personal-obsidian/memory/ 2>/dev/null && echo \\\"---\\\" && cat /Users/nhn/.claude/projects/-Users-nhn-personal-obsidian/memory/MEMORY.md 2>/dev/null...",
+  "error": "Exit code 1\nfeedback_claude_code_slash_commands.md\n---",
+  "timestamp": "2026-05-18T23:07:15.078Z",
+  "retry_count": 1
+}
