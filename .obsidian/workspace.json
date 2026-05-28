@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "2026년 메모/2026년 5월 4주.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "2026년 5월 4주"
             }
           }
         ],
@@ -212,6 +212,7 @@
   },
   "active": "4c05b95a4b2141ff",
   "lastOpenFiles": [
+    "CLAUDE.md",
     "Hello Obsidian.md",
     "2026년 메모/2026년 5월 4주.md",
     "2026년 메모/2026년 5월 3주.md",
@@ -225,7 +226,6 @@
     "wiki/concepts/docflow-code-to-doc.md",
     "raw/papers/RAG_아키텍처_분석_토스_우아한형제들_Sionic_AI_전략_비교.pdf",
     "raw/notes/다른 기업의 RAG 시스템 발표자료.md",
-    "CLAUDE.md",
     "wiki/topics/rag-system-architecture-strategies.md",
     "wiki/concepts/woowa-mulebose-text-to-sql.md",
     "wiki/concepts/toss-park-ssi-rag.md",
