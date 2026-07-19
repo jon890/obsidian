@@ -147,8 +147,7 @@
               "title": "2026년 7월 3주"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -308,7 +307,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8385aa689b5649c7",
+  "active": "972ebd34517f702a",
   "lastOpenFiles": [
     "2026년 7월 3주.md",
     "2026년 메모/README.md",
