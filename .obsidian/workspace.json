@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 메모/README.md",
+                "file": "2026년 메모/2026년 7월 3주.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2026년 7월 3주"
             }
           },
           {
@@ -139,7 +139,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 7월 3주.md",
+                "file": "2026년 메모/2026년 7월 3주.md",
                 "mode": "source",
                 "source": false
               },
@@ -307,10 +307,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "972ebd34517f702a",
+  "active": "41b0c55b994c3e4e",
   "lastOpenFiles": [
-    "2026년 7월 3주.md",
     "2026년 메모/README.md",
+    "2026년 메모/2026년 7월 3주.md",
     "2026년 메모/2026년 7월 2주.md",
     "2026년 메모/2026년 1월 1주.md",
     "2026년 메모/2026년 7월 1주.md",
