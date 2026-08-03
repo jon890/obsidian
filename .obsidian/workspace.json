@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 메모/2026년 7월 5주.md",
+                "file": "2026년 메모/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026년 7월 5주"
+              "title": "README"
+            }
+          },
+          {
+            "id": "d61367a4dd7896ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026년 8월 1주.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026년 8월 1주"
             }
           },
           {
@@ -176,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -336,11 +350,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43374a24ed085df8",
+  "active": "d61367a4dd7896ce",
   "lastOpenFiles": [
-    "2026년 메모/2026년 1월 4주.md",
-    "2026년 메모/2026년 7월 5주.md",
+    "2026년 8월 1주.md",
     "2026년 메모/README.md",
+    "2026년 메모/2026년 7월 5주.md",
+    "2026년 메모/2026년 1월 4주.md",
     "2026년 메모/2026년 7월 4주.md",
     "2026년 메모/2026년 7월 3주.md",
     "2026년 메모/2026년 1월 3주.md",
@@ -364,7 +379,6 @@
     "wiki/concepts/docflow-code-to-doc.md",
     "raw/papers/RAG_아키텍처_분석_토스_우아한형제들_Sionic_AI_전략_비교.pdf",
     "raw/notes/다른 기업의 RAG 시스템 발표자료.md",
-    "wiki/topics/rag-system-architecture-strategies.md",
     "wiki/topics",
     "wiki/concepts",
     "wiki",
