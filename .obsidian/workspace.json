@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2026년 8월 2주"
             }
+          },
+          {
+            "id": "377e1b8c7f703bf3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.13.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -181,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5fd7f47cea3bdbc",
+  "active": "377e1b8c7f703bf3",
   "lastOpenFiles": [
     "2026년 메모/2026년 2월 4주.md",
     "2026년 메모/2026년 8월 2주.md",
