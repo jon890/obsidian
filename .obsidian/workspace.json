@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 9월 5주.md",
+                "file": "2026년 메모/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026년 9월 5주"
+              "title": "README"
+            }
+          },
+          {
+            "id": "794677a20d868302",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026년 10월 1주.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026년 10월 1주"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -226,10 +240,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a41c9dd8b7c57744",
+  "active": "794677a20d868302",
   "lastOpenFiles": [
-    "2026년 9월 5주.md",
+    "2026년 10월 1주.md",
     "2026년 메모/README.md",
+    "2026년 메모/2026년 9월 5주.md",
     "2026년 메모/2026년 9월 4주.md",
     "Hello Obsidian.md",
     "2026년 메모/2026년 9월 3주.md",
@@ -253,7 +268,6 @@
     "2026년 메모/2026년 7월 1주.md",
     "2026년 메모/2026년 1월 2주.md",
     "2026년 메모/2026년 6월 4주.md",
-    "2026년 메모/2026년 6월 2주.md",
     "raw/papers/RAG_아키텍처_분석_토스_우아한형제들_Sionic_AI_전략_비교.pdf",
     "wiki/topics",
     "wiki/concepts",
