@@ -35,8 +35,7 @@
               "title": "2026년 10월 3주"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c0fb9212333c9c20",
@@ -198,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c06502100688041",
+  "active": "7b8beb35fd30836e",
   "lastOpenFiles": [
     "2026년 10월 3주.md",
     "2026년 메모/README.md",
