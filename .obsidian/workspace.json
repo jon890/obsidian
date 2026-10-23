@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026년 메모/README.md",
+                "file": "2026년 메모/2026년 10월 4주.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2026년 10월 4주"
             }
           }
         ],
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c0fb9212333c9c20",
@@ -198,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "41b0c55b994c3e4e",
+  "active": "aafb4eaf0d456974",
   "lastOpenFiles": [
     "OpenAI DevDay.md",
     "2026년 메모/README.md",
