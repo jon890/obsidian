@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "2026년 10월 4주"
             }
+          },
+          {
+            "id": "a31e90fb053423ca",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.14.5"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aafb4eaf0d456974",
+  "active": "a31e90fb053423ca",
   "lastOpenFiles": [
     "OpenAI DevDay.md",
     "2026년 메모/README.md",
