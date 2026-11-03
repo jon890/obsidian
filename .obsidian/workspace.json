@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "2026년 11월 1주"
             }
+          },
+          {
+            "id": "33492b79709cac19",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.15.0"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ed1a8ad41725e48",
+  "active": "33492b79709cac19",
   "lastOpenFiles": [
     "2026년 메모/README.md",
     "2026년 메모/2026년 11월 1주.md",
