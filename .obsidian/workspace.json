@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2026년 11월 2주"
             }
+          },
+          {
+            "id": "d9510813b9405509",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.1"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.15.1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2bc273253bc6e7d8",
+  "active": "d9510813b9405509",
   "lastOpenFiles": [
     "file:/private/var/folders/cv/k3t3wyw95vl1r5z2px4xh9_h0000gn/T/pane-probe.md",
     "2026년 메모/2026년 11월 2주.md",
